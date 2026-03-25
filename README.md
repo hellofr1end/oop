@@ -102,6 +102,39 @@ cat2.info()
   - Если книга выдана — меняет статус на `False` и печатает: `"Вы вернули книгу [название]"`
     
   - Если книга и так свободна — печатает: `"Книга [название] и так в библиотеке"`
+
+
+```python
+class Book:
+    def __init__(self, title, author):
+        self.title = ___
+        self.author = ___
+        self.is_borrowed = ___  # False значит свободна
+    
+    def info(self):
+        # Определяем статус текстом
+        if self.is_borrowed:
+            status = "выдана"
+        else:
+            status = "свободна"
+        print(___)
+    
+    def borrow(self):
+        if ___:
+            # Если книга свободна
+            self.is_borrowed = ___
+            print(___)
+        else:
+            print(___)
+    
+    def return_book(self):
+        if ___:
+            # Если книга выдана
+            self.is_borrowed = ___
+            print(___)
+        else:
+            print(___)
+```
     
 
 ```python
