@@ -46,8 +46,6 @@ class Cat:
  self.name = ___ 
 self.age = ___
 
-```
-```python
 def meow(self):
     # Напечатай "Мяу! Меня зовут [имя]"
     print(___)
