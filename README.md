@@ -41,16 +41,16 @@ my_cat.info()
 ```python
 
 class Cat:
- def __init__(self, name, age):
- # Сохрани имя и возраст
- self.name = ___ 
-self.age = ___
+    def __init__(self, name, age):
+    # Сохрани имя и возраст
+    self.name = ___ 
+    self.age = ___
 
-def meow(self):
-    # Напечатай "Мяу! Меня зовут [имя]"
-    print(___)
+    def meow(self):
+        # Напечатай "Мяу! Меня зовут [имя]"
+        print(___)
 
-def info(self):
-    # Напечатай "Котик [имя], возраст [возраст] лет"
-    print(___)
+    def info(self):
+        # Напечатай "Котик [имя], возраст [возраст] лет"
+        print(___)
 ```
